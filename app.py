@@ -9,7 +9,7 @@ from math import radians, sin, cos, sqrt, atan2
 # Load dataset
 @st.cache_data
 def load_data():
-    file_path = "/Users/GeoTarget/streamlit_app/TerritoryList.xlsx"  # Update with your file path
+    file_path = "TerritoryList.xlsx"  # Update with your file path
     spreadsheet = pd.ExcelFile(file_path)
     data = spreadsheet.parse(sheet_name=spreadsheet.sheet_names[0])
     
