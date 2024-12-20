@@ -149,7 +149,7 @@ def create_map(data, available_cities, filters):
 
 # Main app
 def main():
-    st.title("City Flag Dashboard")
+    st.title("GT Territory Tool")
     data = load_data()
     data = assign_flags(data)
 
